@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 0.3rem 3rem;
   position: absolute;
   width: 100%;
   top: 0;
@@ -33,6 +33,11 @@ header {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 } */
 
+header img {
+  height: 6.5rem;
+  width: 100%;
+}
+
 header ul {
   display: flex;
 }
@@ -42,7 +47,7 @@ header li {
 }
 
 header a {
-  color: rgb(96, 17, 171);
+  color: rgb(167, 211, 240);
   text-decoration: none;
   font-size: 1.25rem;
   padding: 0.75rem;
