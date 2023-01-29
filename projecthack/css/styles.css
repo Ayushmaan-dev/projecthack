@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+body a{
+  text-decoration: none;
+}
+
 #hero {
   margin-top: 7rem;
   height: 800px;
