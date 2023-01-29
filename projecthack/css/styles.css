@@ -84,117 +84,137 @@ body {
   color: whitesmoke;
 }
 
-#portals {
-  display: flex;
-  flex-direction: column;
-}
+ #portals ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem 1rem;
+        width: 100rem;
+        margin: 4rem auto 4rem auto;
+        padding: 0;
+    }
 
-#portals ul {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-}
+   
 
-#Travel-Facilities {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Educational-Services{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Gas-Services {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Gas-Services{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Medical-Services {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Medical-Services{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Employment-Services {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Employment-Services{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Hospitality-Services {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Travel-Facilities{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Bank-Services {
-  align-items: center;
-  border-radius: 3rem;
-  background-color: whitesmoke;
-  display: flex;
-  width: 100rem;
-  margin: 2rem;
-  overflow: hidden;
-  box-shadow: 3px 3px 10px whitesmoke;
-  transition: transform 0.5s ease-out;
-}
+    #Bank-Services{
+        align-items: center;
+        width: 30rem;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;      
+        margin: 1rem;
+        overflow: hidden;
+        box-shadow: 3px 3px 10px whitesmoke;
+        transition: transform 0.5s ease-out;
+    }
 
-#Travel-Facilities:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 3px 15px whitesmoke;
-}
+    #Educational-Services:hover{
+        transform: scale(1.03);
+            box-shadow: 3px 3px 15px whitesmoke;
+    }
 
-#Gas-Services:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 3px 15px whitesmoke;
-}
+    #Gas-Services:hover{
+        transform: scale(1.03);
+box-shadow: 3px 3px 15px whitesmoke;
+    }
 
-#Medical-Services:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 3px 15px whitesmoke;
-}
+    #Medical-Services:hover{
+        transform: scale(1.03);
+box-shadow: 3px 3px 15px whitesmoke;
+    }
 
-#Employment-Services:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 3px 15px whitesmoke;
-}
+    #Employment-Services:hover{
+        transform: scale(1.03);
+box-shadow: 3px 3px 15px whitesmoke;
+    }
 
-#Hospitality-Services:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 3px 15px whitesmoke;
-}
+    #Travel-Facilities:hover{
+        transform: scale(1.03);
+box-shadow: 3px 3px 15px whitesmoke;
+    }
 
-#Bank-Services:hover {
-  transform: scale(1.01);
+    #Bank-Services:hover{
+        transform: scale(1.03);
+box-shadow: 3px 3px 15px whitesmoke;
+    }
+
+    #portals li div{
+        margin: 2rem; 
+        font-size: 1.3rem;
+    }
+
+    #portals li img{
+        width: 35rem;
+        height: 25rem;
+        object-fit: cover;
+    }
+
+
   box-shadow: 3px 3px 15px whitesmoke;
 }
 
