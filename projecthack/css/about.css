@@ -1,0 +1,23 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    /* background-color: rgb(167, 211, 240); */
+    background: linear-gradient(0deg, rgb(167, 211, 240), rgb(202, 243, 240));
+    margin: 0;
+}
+
+main {
+  margin-top: 12rem;  
+}
+
+main P {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600; 
+}
+
+footer {
+  margin-top: 50%;  
+}
