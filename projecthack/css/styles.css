@@ -1,7 +1,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   /* background-color: rgb(167, 211, 240); */
-  background: linear-gradient(0deg, rgb(167,211,240), rgb(202,243,240));
+  background: linear-gradient(0deg, rgb(167, 211, 240), rgb(202, 243, 240));
   margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
   /* background-image: url("/Images/education.jpeg"); */
   background-position: center;
   background-size: cover;
-  animation: slider 9s infinite ;
+  animation: slider 9s infinite;
 }
 
 @keyframes slider {
@@ -84,142 +84,125 @@ body {
   color: whitesmoke;
 }
 
- #portals ul{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 1rem 1rem;
-        width: 100rem;
-        margin: 4rem auto 4rem auto;
-        padding: 0;
-    }
+#portals ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem 1rem;
+  width: 100rem;
+  margin: 4rem auto 4rem auto;
+  padding: 0;
+}
 
-   
+#Educational-Services {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Educational-Services{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Gas-Services {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Gas-Services{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Medical-Services {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Medical-Services{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Employment-Services {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Employment-Services{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Travel-Facilities {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Travel-Facilities{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Bank-Services {
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px whitesmoke;
+  transition: transform 0.5s ease-out;
+}
 
-    #Bank-Services{
-        align-items: center;
-        width: 30rem;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        display: flex;
-        flex-direction: column;      
-        margin: 1rem;
-        overflow: hidden;
-        box-shadow: 3px 3px 10px whitesmoke;
-        transition: transform 0.5s ease-out;
-    }
+#Educational-Services:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 15px whitesmoke;
+}
 
-    #Educational-Services:hover{
-        transform: scale(1.03);
-            box-shadow: 3px 3px 15px whitesmoke;
-    }
+#Gas-Services:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 15px whitesmoke;
+}
 
-    #Gas-Services:hover{
-        transform: scale(1.03);
-box-shadow: 3px 3px 15px whitesmoke;
-    }
+#Medical-Services:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 15px whitesmoke;
+}
 
-    #Medical-Services:hover{
-        transform: scale(1.03);
-box-shadow: 3px 3px 15px whitesmoke;
-    }
+#Employment-Services:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 15px whitesmoke;
+}
 
-    #Employment-Services:hover{
-        transform: scale(1.03);
-box-shadow: 3px 3px 15px whitesmoke;
-    }
+#Travel-Facilities:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 15px whitesmoke;
+}
 
-    #Travel-Facilities:hover{
-        transform: scale(1.03);
-box-shadow: 3px 3px 15px whitesmoke;
-    }
-
-    #Bank-Services:hover{
-        transform: scale(1.03);
-box-shadow: 3px 3px 15px whitesmoke;
-    }
-
-    #portals li div{
-        margin: 2rem; 
-        font-size: 1.3rem;
-    }
-
-    #portals li img{
-        width: 35rem;
-        height: 25rem;
-        object-fit: cover;
-    }
-
-
+#Bank-Services:hover {
+  transform: scale(1.03);
   box-shadow: 3px 3px 15px whitesmoke;
 }
 
 #portals li div {
-  margin-left: 2rem;
+  margin: 2rem;
   font-size: 1.3rem;
 }
 
