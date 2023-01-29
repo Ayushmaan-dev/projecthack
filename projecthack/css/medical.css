@@ -1,0 +1,65 @@
+main{
+  margin-top: 7rem;
+  background-image: url("/Images/medicalservices.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+section{
+  padding-top: 5rem;
+  width: 50%;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+section ul{
+  align-items: left;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+section ul h1{
+  margin-left: 3rem;
+  font-size: 5rem;
+  font-family: "Aboreto";
+}
+
+#link{
+  border-radius: 10px;
+}
+
+#links li{
+  font-size: 1.5rem;
+  width: 30rem;
+  padding: 1rem;
+  align-items: left;
+  /* background-color: rgb(0, 0, 0, 0.5); */
+  
+}
+
+section div li{
+  list-style: circle;
+}
+
+section ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+section ul li a:hover{
+  color: yellow;
+}
+
+section p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+  /* background-color: rgb(0, 0, 0, 0.5); */
+  color: whitesmoke;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 10px;
+}
