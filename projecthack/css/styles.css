@@ -36,7 +36,7 @@ body {
     background-image: url(/Images/travel.jpeg);
   }
 
-  85% {
+  100% {
     background-image: url(/Images/employment.jpeg);
   }
 }
